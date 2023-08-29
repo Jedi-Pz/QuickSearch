@@ -14,7 +14,7 @@ class SearchThread(QThread):
         TODO: 使用NTFS的USN日志匹配所有的文件
             - 目前可以获取这个文件，但是如何处理仍在探索
         TODO: 实现目标字符的高亮
-        DONE: 多线程实现搜索文件的方法
+        DONE: 多线程搜索文件
             - threading库实现
             - 仅适用threading库造成了线程阻塞，包含GUI的主线程被阻塞了，
               没有实现多线程应有的搜索和显示独立运行的效果
